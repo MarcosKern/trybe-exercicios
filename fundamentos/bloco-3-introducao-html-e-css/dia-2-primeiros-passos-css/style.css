@@ -1,0 +1,32 @@
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-decoration: double;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+li:first-child {
+  background: blue;
+}
+
+li:nth-child(2) {
+  background: pink;
+}
+
+li:last-child {
+  background: purple;
+}
+
+.color {
+  background: red;
+}
